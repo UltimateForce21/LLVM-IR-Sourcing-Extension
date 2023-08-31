@@ -24,14 +24,6 @@ function activate(context) {
 		vscode.window.showInformationMessage('Hello World from Testing!');
 	});
 
-	let disposable2 = vscode.languages.registerHoverProvider('javascript', {
-		provideHover(document, position, token) {
-		  return {
-			contents: ['Hover Content']
-		  };
-		}
-	});
-
 	context.subscriptions.push(disposable);
 }
 
