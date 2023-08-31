@@ -1,0 +1,7 @@
+Compiler explorer llvm IR to mapping to original code
+
+Functionality of the Extension
+--> identify debug identifier (ex. "!dbg !549") at the end of the line 
+(UI Specification: open up that small modal to create a link to location of actual code)
+--> search for that in the other source file and retrieve the file location and the line number 
+--> open file location and line number in another tab
